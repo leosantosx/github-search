@@ -1,0 +1,46 @@
+section.form {
+    display: flex;
+    justify-content: center;
+
+    div h1{
+        text-align: center;
+        font-size: 2rem;
+        color: var(--title);
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    div > div {
+
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+
+        input{
+            width: 40vw;
+            padding: 20px 10px;
+            color: var(--title);
+            border-radius: 5px 0 0 5px;
+            border: 0;
+            font-size: 1rem;
+            outline: none;
+        }
+    
+    
+        button{
+            padding: 20px 15px;
+            border: 0;
+            color: var(--white);
+            background-color: var(--blue);
+            font-size: 1.1rem;
+            border-radius: 0 5px 5px 0;
+            font-weight: 500;
+        }
+    }
+
+    div p{
+        margin-top: 5px;
+        color: var(--danger);
+        font-size: 1rem;
+    }
+}
